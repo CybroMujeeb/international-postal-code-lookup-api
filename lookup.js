@@ -1,10 +1,9 @@
 function apiLookup(){
 
-let pincode = '695563';
-let countryCode = 'IN';
+   let pinCode     = '695563';
+   let countryCode = 'IN';
 
-$.get('https://worldpostallocations.com/'+pinCode+'/'+countryCode,(res) =>{
-console.log(res);
-});
-
+   $.get('https://worldpostallocations.com/'+pinCode+'/'+countryCode,(res) =>{
+      console.log(res);
+   });
 }
